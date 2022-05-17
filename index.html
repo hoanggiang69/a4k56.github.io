@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+      <title>Trang web của lớp 11A4 K56 NTMK</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Trang web của lớp 11A4" />
+        <meta name="keywords" content="lớp 11a4 ntmk" />
+        <meta name="author" content="NHG" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <link rel="stylesheet" href="web.css" />
+    <nav class = "menu">      
+      <h3><ul>
+        <li><a class="adjective" href="./TKB.html">Thời khóa biểu</a></li>
+        <li><a class="adjective" href="./BTVN.html">BTVN</a></li>
+        <li><a class="active" href="./index.html">Trang chủ</a></li>
+        <li><a class="adjective" href="#">Ảnh</a>
+          <ul class = "sub-menu"> 
+            <li><a class="adjective" href="./Anhdimtr1.html">Ảnh dìm</a></li>
+            <li><a class="adjective" href="#">Ảnh đẹp</a></li>
+            <li><a class="adjective" href="#">Ảnh kỷ niệm</a></li>
+          </ul>   
+        <li><a class="adjective" href="./DanhSachLop.html">Danh sách lớp</a></li>
+        </li>
+      </ul></h3>
+    </nav>
+    
+    <div style="height: 10px"></div>
+    <iframe class="discord" style="position: absolute;" src="https://discordapp.com/widget?id=763052703336103956&theme=dark" width="350" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+    <center style="font-size: large; text-align: center;">
+      <h3 class="SeCoBatNgoSau" style="font-size: large; text-align: center; position: relative;">Sẽ có bất ngờ sau:</h3>
+      <p id="demo"></p>
+      <script style="position: absolute;">
+      var countDownDate = new Date("Jun 5, 2023 00:00:00").getTime();
+      var x = setInterval(function() {
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        document.getElementById("demo").innerHTML = days + "ngày " + hours + "giờ "
+        + minutes + "phút " + seconds + "giây ";
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo").innerHTML = "Cảm ơn các bạn đã đồng hành cùng mình trong suốt 3 năm qua!";
+        }
+      }, 1000);
+      </script>
+      <iframe class="covid19" src ="https://covid19.vnanet.vn/home/indexwigetsummary" frameborder="0" width="90%" style="min-height: 180px;" > </iframe>
+    </center>  
+    <div class = "footer"> &copy; Copyright K56 11A4 NTMK 
+ </div> 
+   </body>
+</html>

@@ -1,0 +1,692 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color:#B9EDF8 ;
+}
+    
+.footer {
+    text-align: center;
+    color: #B9EDF8;
+    background:#1F6ED4;
+    margin: 0;
+    height: 1.75cm;
+    line-height: 1.75cm;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.menu ul {
+    list-style-type: none;
+    background:#1F6ED4;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu ul li {
+    display: inline-table;
+    color:#1F6ED4;
+    width: 5.5cm;
+    height: 1.5cm;
+    line-height: 1.5cm;
+}
+
+.menu ul li a {
+    color: #B9EDF8;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: block;
+    font-style: unset;
+    position: relative;
+}
+
+.menu ul li a:hover {
+    color: black;
+    background: #B9EDF8;
+}
+
+.menu ul li a:active {
+    color: red;
+}
+
+.menu ul li > .sub-menu {
+    display: none;
+    position: absolute;
+    width: 5cm;
+    z-index: 3;
+}
+.menu ul li:hover .sub-menu {
+    display: block;
+}
+
+.menu ul li:active .sub-menu {
+    color: red;
+}
+
+.menu ul li .adjective {
+    color: #B9EDF8;
+    background: #1F6ED4;
+}
+
+.menu ul li .active {
+    color: black;
+    background: #B9EDF8;
+}
+.update {
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    height: 15cm;
+    text-align: center;
+    line-height: 15cm;
+    margin: 0 2cm 0 2cm;
+    z-index: 1;
+}
+.update1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    height: 2cm;
+    line-height: 2cm;
+    text-align: center;
+    background-color: white;
+    margin: 0 2cm 0 2cm;
+}
+.update2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    height: 2cm;
+    background: white;
+    margin: 0 2cm;
+}
+.linkanh {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: white;
+    color:black;
+    height: 2cm;
+    width: 4cm;
+    line-height: 8cm;
+    margin: 0 2cm;
+    list-style-type: none;
+    float: right;
+}
+.linkanh:active{
+    color:red;
+}
+.marquee {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 1cm;
+    line-height: 1cm;
+    color: black;
+}
+.bang {
+    height: 30cm;
+    margin: 0 2cm;
+    background-color: white;
+}
+.anhvidu1 {
+    margin: 0 2cm;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: content-box;
+}
+.anhvidu {
+    padding: 0.5cm;
+}
+
+.tkbt {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:1cm
+}
+.tkbchieu table {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+    margin: 1cm 2cm;
+    text-align: center;
+    position: relative;
+}
+.BTVN ul {
+    z-index: 2;
+    color: black;
+    margin: 2cm 4cm;
+}
+.danhsachlop {
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    height: 2cm;
+    text-align: center;
+    line-height: 2cm;
+    margin: 0 2cm 0 2cm;
+    z-index: 1;
+}
+.bangdanhsach {
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    text-align: center;
+    line-height: 1cm; 
+    border: black;
+    display: block;
+    position: relative;
+}
+.bangdanhsach table tr td {
+    width: 5cm;
+    text-align: center;
+    border: black;
+}
+.bangdanhsach table tr td a {
+    text-decoration: none
+}
+.bangdanhsach center table tbody tr td a:hover {
+    color: red;
+} 
+.bangdanhsach center table tbody tr td a:active {
+    color: red;
+}   
+.profile {  margin: 20px 0;}
+     
+.profile-sidebar {  
+padding: 20px 0 10px 0;  
+background: #fff;
+min-height: 460px;
+}
+     
+     
+.profile-userpic img {  
+float: none;  
+margin: 0 auto;  
+width: 50%;  
+height: 50%;  
+-webkit-border-radius: 50% !important;  
+-moz-border-radius: 50% !important;  
+border-radius: 50% !important;
+}
+     
+     
+.profile-usertitle {  
+text-align: center;  
+margin-top: 20px;
+}
+     
+     
+.profile-usertitle-name {  
+color: #5a7391;  
+font-size: 16px;  
+font-weight: 600;  
+margin-bottom: 7px;
+}
+     
+     
+.profile-usertitle-job {  
+text-transform: uppercase;  
+color: #5b9bd1;  
+font-size: 12px;  
+font-weight: 600;  
+margin-bottom: 15px;
+}
+     
+     
+.profile-userbuttons {  
+text-align: center;  
+margin-top: 10px;
+}
+     
+     
+.profile-userbuttons .btn {  
+text-transform: uppercase;  
+font-size: 11px;  
+font-weight: 600;  
+padding: 6px 15px;  
+margin-right: 5px;
+}
+     
+     
+.profile-userbuttons .btn:last-child {  
+margin-right: 0px;
+}    
+.profile-usermenu {  
+margin-top: 30px;
+}
+     
+.profile-usermenu ul li {  
+border-bottom: 1px solid #f0f4f7;
+}
+     
+     
+.profile-usermenu ul li:last-child {  
+border-bottom: none;
+}
+     
+.profile-usermenu ul li a {  
+color: #93a3b5;  
+font-size: 14px;  
+font-weight: 400;
+}
+     
+     
+.profile-usermenu ul li a i {  
+margin-right: 8px;  
+font-size: 14px;
+}
+     
+.profile-usermenu ul li a:hover {  
+background-color: #fafcfd;  
+color: #5b9bd1;
+}
+     
+     
+.profile-usermenu ul li.active1 {  
+border-bottom: none;
+}
+     
+     
+.profile-usermenu ul li.active1 a {  
+color: #5b9bd1;  
+background-color: #f6f9fb;  
+border-left: 2px solid #5b9bd1;  
+margin-left: -2px;
+}
+     
+     
+.profile-content {  
+padding: 20px;  
+background: #fff;  
+min-height: 460px;
+font-size: 20px;
+}
+.bangdanhsach table tbody tr td{
+    font-size: 15px;
+}
+.bangdanhsach table thead {
+    text-align: center;
+    border: black;
+    background-color: white;
+}
+.bangdanhsach table tbody {
+    text-align: center;
+    border: black;
+    background-color: white;
+}
+.bangdanhsach {
+    position: relative;
+}
+.discord {
+    margin-left: 2cm;
+}
+.SeCoBatNgoSau {
+    height: 4cm;
+    line-height: 7cm;
+}
+.covid19 {
+    margin: 7cm 0 3cm 0;
+}
+
+.banner_holder{
+    width: 100%;
+    height: 300px;
+    min-height: 100px;
+    position: relative;
+}
+
+.banner_holderImage{
+    height: 100%;
+    position:relative;
+    background:   url("https://scontent.fhan3-3.fna.fbcdn.net/v/t1.6435-9/p720x720/107537099_287919009287683_8534312921640485809_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=e3f864&_nc_ohc=M7CI2yQJdZIAX_WbgVa&_nc_ht=scontent.fhan3-3.fna&oh=2231ce4d364670bfe35f6238e295657c&oe=61AEF20B")no-repeat;
+    background-size: cover;
+}
+.tkbsang {
+    height: 16cm;
+    width: 30cm;
+}
+.tkbchieu {
+    height: 8cm;
+    width: 20cm;
+}
+
+@media all and (max-width: 765px) {
+    .NDA span {
+        display: none;
+    }
+    .NDA::after {
+        content: "N.Duy Anh";
+    }
+    .LTNA span {
+        display: none;
+    }
+    .LTNA::after {
+        content: "L.T.Nguyệt Ánh";
+    }
+    .VQB span {
+        display:none;
+    }
+    .VQB::after {
+        content: "V.Quốc Bách";
+    }
+    .NQB span {
+        display:none;
+    }
+    .NQB::after {
+        content: "N.Quốc Bảo";
+    }
+    .NDC span {
+        display: none;
+    }
+    .NDC::after {
+        content: "N.Đức Chung";
+    }
+    .TTHD span {
+        display:none;
+    }
+    .TTHD::after {
+        content: "T.T.Huyền Diệu";
+    }
+    .NTD span {
+        display: none;
+    }
+    .NTD::after {
+        content: "N.Tiến Đạt";
+    }
+    .NHG span {
+        display: none;
+    }
+    .NHG::after {
+        content: "N.Hoàng Giang";
+    }
+    .LHG span {
+        display: none;
+    }
+    .LHG::after {
+        content: "L.Hương Giang";
+    }
+    .NNTG span {
+        display:none;
+    }
+    .NNTG::after {
+        content: "N.N.Thu Giang";
+    }
+    .NDVH span {
+        display:none;
+    }
+    .NDVH::after {
+        content: "N.Đ.Việt Hà";
+    }
+    .NHH span {
+        display: none;
+    }
+    .NHH::after {
+        content:"N.Huy Hoàng";
+    }
+    .NMH span {
+        display: none;
+    }
+    .NMH::after {
+        content: "N.Minh Hoàng"
+    }
+    .NTrH span {
+        display:none;
+    }
+    .NTrH::after {
+        content: "N.Trọng Huy"
+    }
+    .NDH span {
+        display: none;
+    }
+    .NDH::after {
+        content: "N.Đức Huy";
+    }
+    .NTH span {
+        display: none;
+    }
+    .NTH::after {
+        content: "N.Thế Huy";
+    }
+    .NKH span {
+        display: none;
+    }
+    .NKH::after {
+        content: "N.Khắc Hưng"
+    }
+    .NTTH span {
+        display:none
+    }
+    .NTTH::after {
+        content: "N.T.Thu Hường"
+    }
+    .PTK span {
+        display:none
+    }
+    .PTK::after {
+        content: "P.Thành Khang"
+    }
+    .DDK span {
+        display:none
+    }
+    .DDK::after {
+        content: "Đ.Đình Khang"
+    }
+    .DTAK span {
+        display: none;
+    }
+    .DTAK::after {
+        content: "Đ.T.Anh Khôi"
+    }
+    .CHDL span {
+        display: none;
+    }
+    .CHDL::after {
+        content: "C.H.Diệu Linh"
+    }
+    .VTL span {
+        display: none;
+    }
+    .VTL::after {
+        content: "V.Thùy Linh"
+    }
+    .DTYN span {
+        display: none;
+    }
+    .DTYN::after {
+        content: "Đ.T.Yến Nhi"
+    }
+    .DHP span {
+        display: none;
+    }
+    .DHP::after {
+        content: "Đ.H.Phương"
+    }
+    .NTTP span {
+        display: none;
+    }
+    .NTTP::after {
+        content: "N.T.Thu Phương"
+    }
+    .NNQ span {
+        display: none;
+    }
+    .NNQ::after {
+        content: "N.Ngọc Quang"
+    }
+    .NNhQ span {
+        display: none;
+    }
+    .NNhQ::after {
+        content: "N.Nhật Quang"
+    }
+    .NTQ span {
+        display: none;
+    }
+    .NTQ::after {
+        content: "N.Tiến Quân"
+    }
+    .NTT span {
+        display: none;
+    }
+    .NTT::after {
+        content: "N.Tiến Thành"
+    }
+    .NTTh span {
+        display: none;
+    }
+    .NTTh::after {
+        content: "N.Thanh Thảo"
+    }
+    .NTPT span {
+        display: none;
+    }
+    .NTPT::after {
+        content: "N.T.P.Thảo";
+    }
+    .VQT span {
+        display: none;
+    }
+    .VQT::after {
+        content: "V.Q.Trường"
+    }
+    .NKT span {
+        display:none
+    }
+    .NKT::after {
+        content:"N.Kim Tuấn"
+    }
+    .NTV span {
+        display:none
+    }
+    .NTV::after {
+        content: "N.Thành Vinh"
+    }
+    .tkbsang {
+        height: 10cm;
+        width: 9cm;
+    }
+    .tkbchieu {
+        height: 8cm;
+        width: 9cm;
+    }
+    .banner_holderImage {
+        height: 85%;
+    }
+    .banner_holder {
+        height: 200px;
+        min-height: 50px;
+    }
+    .footer {
+        margin: 0;
+    }
+    .anhvidu1 img {
+        width: 3cm;
+        height: 2cm; 
+        font-size: small;  
+        float: left;    
+    }
+    .update {
+        margin: 0 0.2cm;
+        height: 4cm;
+        line-height: 4cm;
+        font-size: medium;
+    }
+    .bang {
+        margin: 0 0.2cm;
+        height: 20cm;
+    }
+    .update1 {
+        margin: 0 0.2cm;
+        height: 2cm;
+        font-size: small;
+    }
+   .tkbt {
+       font-size: 10px;
+       margin: 0,5cm 0cm;
+       height: 0.5cm;
+       background-color: none;
+   }
+   .tkbsang table {
+       font-size: 15px;
+   }
+   .tkbchieu table {
+       font-size: 15px;
+       margin: 49px 49px;
+   }
+   .menu ul li{
+       width: 6cm;
+       height: 1cm;
+       line-height: 1cm;
+       font-size: small;
+       margin: 0 5px 0 5px;
+   }
+   .BTVN ul {
+       margin: 1cm;
+       font-size: medium;
+   }
+   .menu ul li:hover .sub-menu {
+       display: none;
+   }
+   .danhsachlop {
+       font-size: 15px;
+   }
+   .bangdanhsach table tr td {
+       font-size: 15px;
+       width: 3cm;        
+   }
+   .bangdanhsach {
+       height: 56cm;
+   }
+   .discord {
+       position: relative;
+       width: 250px;
+       height: 70px;
+       left: 1cm;
+       right: 1cm;
+       margin: 0 auto;
+   }
+   .covid19 {
+       margin: 1cm 0 3cm 0;
+   }
+   .SeCoBatNgoSau {
+       height: 4cm;
+       line-height: 6cm;
+   } 
+}
+.image img{
+    height: 300px;
+    margin: 20px;
+}
+.image {
+    text-align: center;
+}
+@media all and (max-width: 1280px) and (min-width: 768px) {
+   .menu ul li {
+       width: 3.8cm;
+       margin: 0;
+   }
+   .bangdanhsach {
+    height: 56cm;
+   }
+   .discord {
+       margin: 0 auto;
+       left: 1cm;
+       right: 1cm;
+       width: 250px;
+       height: 200px;
+   }
+   .SeCoBatNgoSau {
+       height: 7cm;
+       line-height: 12cm; 
+   }
+   .covid19 {
+    margin: 1cm 0 3cm 0;
+   }
+}
+@media all and (max-width: 360px) {
+    .bangdanhsach {
+        height: 65cm;
+    }
+    .banner_holderImage {
+        height: 65%;
+    }
+}
